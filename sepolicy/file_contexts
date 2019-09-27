@@ -35,3 +35,7 @@
 
 # nubia nx549j touchscreen files
 /sys/devices/soc/78b7000\.i2c/i2c-3/3-0020/input/input1(/.*)?              u:object_r:sysfs_touchpanel:s0
+
+# Lineage hardware
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.nx549j                       u:object_r:hal_lineage_touch_default_exec:s0
+
